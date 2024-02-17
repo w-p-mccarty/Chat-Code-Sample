@@ -1,0 +1,1188 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 130835 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+H:/Projects/Repos/Chat-Code-Sample
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54361
+Successfully changed project path to: H:/Projects/Repos/Chat-Code-Sample
+H:/Projects/Repos/Chat-Code-Sample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24220] Host "[IP] 192.168.173.109 [Port] 0 [Flags] 2 [Guid] 1941186223 [EditorId] 1941186223 [Version] 1048832 [Id] WindowsEditor(7,Khoatix-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24220] Host "[IP] 192.168.173.109 [Port] 0 [Flags] 2 [Guid] 1941186223 [EditorId] 1941186223 [Version] 1048832 [Id] WindowsEditor(7,Khoatix-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 4.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Projects/Repos/Chat-Code-Sample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   31.0.15.5152
+Initialize mono
+Mono path[0] = 'G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002854 seconds.
+- Loaded All Assemblies, in  0.383 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 231 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.425 seconds
+Domain Reload Profiling: 808ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (304ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (54ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.433 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (69ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2509 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (69.1 KB). Loaded Objects now: 2954.
+Memory consumption went from 107.6 MB to 107.5 MB.
+Total: 3.909100 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.033800 ms MarkObjects: 3.642200 ms  DeleteObjects: 0.099000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2954.
+Memory consumption went from 66.9 MB to 66.9 MB.
+Total: 3.674200 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.046400 ms MarkObjects: 3.478900 ms  DeleteObjects: 0.015100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10994.374590 seconds.
+  path: Assets/Prefabs/AppController.prefab
+  artifactKey: Guid(8f9a0b3299be8df4f94cc44df7671b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/AppController.prefab using Guid(8f9a0b3299be8df4f94cc44df7671b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28ad4badc05882dc913fb6908c792395') in 0.103065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.010280 seconds.
+  path: Assets/Prefabs/UIManager.prefab
+  artifactKey: Guid(16ccff6083979f945ab2ac1fb66014af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/UIManager.prefab using Guid(16ccff6083979f945ab2ac1fb66014af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5520f643b2c6dad754e7f495dbd9bfc1') in 0.053575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/PreloadedChats/17474/17474_chat_0.txt
+  artifactKey: Guid(3ea7f7cc195a8994ba9d9f71a77c7f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/17474/17474_chat_0.txt using Guid(3ea7f7cc195a8994ba9d9f71a77c7f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af4e92a59ea1792a2c8fa907c10b9a47') in 0.008801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scripts/UIPages/ConversationsListUI.cs
+  artifactKey: Guid(b83292b68b6479c45a15347f07721d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UIPages/ConversationsListUI.cs using Guid(b83292b68b6479c45a15347f07721d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f03e8cc340b118ee7dd4d9776fe5bf5f') in 0.003899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/background.jpg
+  artifactKey: Guid(62df175c09b42c44592b4d0a40628a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/background.jpg using Guid(62df175c09b42c44592b4d0a40628a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14a79c4ba7ae01ac48d8d132edc95028') in 0.044375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/PreloadedChats/12358/12358_chat_1.txt
+  artifactKey: Guid(6bc2941236f53a54781967781d7c20d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12358/12358_chat_1.txt using Guid(6bc2941236f53a54781967781d7c20d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '148598b9a790e8acc9048b37848abf51') in 0.008460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/PreloadedChats/13321/13321_chat_1.txt
+  artifactKey: Guid(78dc612ae3e86504db94947f98dd458e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/13321/13321_chat_1.txt using Guid(78dc612ae3e86504db94947f98dd458e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21e564c20cd63f55c5f2f8fd310decdd') in 0.007641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Resources/PreloadedChats/12122/12122_chat_4.txt
+  artifactKey: Guid(d388a936995759043af055f9710ec89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12122/12122_chat_4.txt using Guid(d388a936995759043af055f9710ec89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6f45dcd4d7f35735caa95b6553ac42a') in 0.007810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Resources/PreloadedChats/22221/22221_chat_0.txt
+  artifactKey: Guid(0413dfbe49fe3804694766b123533fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/22221/22221_chat_0.txt using Guid(0413dfbe49fe3804694766b123533fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6121196af66307c0ce5aa7c9c4a04382') in 0.007583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/PreloadedChats/13321/13321_chat_5.txt
+  artifactKey: Guid(1ffbd31035296484c8c59dbced76b990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/13321/13321_chat_5.txt using Guid(1ffbd31035296484c8c59dbced76b990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddaa680551ffeaf871b33762bbb8e05d') in 0.008198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Resources/PreloadedChats/17474/17474_chat_2.txt
+  artifactKey: Guid(ff53852aba412f749942bf6e64e0390d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/17474/17474_chat_2.txt using Guid(ff53852aba412f749942bf6e64e0390d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9009509c244f0e4394d25b907db3b26a') in 0.007258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Resources/PreloadedChats/12358/12358_chat_0.txt
+  artifactKey: Guid(4eb14c72cc5ea094faaca82780023d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12358/12358_chat_0.txt using Guid(4eb14c72cc5ea094faaca82780023d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2374070e56c2cfc6fcfe8df5dc558b6a') in 0.007480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/PreloadedChats/11557/11557_chat_4.txt
+  artifactKey: Guid(7d3ff4e6a1ad0cd47a64f34422e174f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/11557/11557_chat_4.txt using Guid(7d3ff4e6a1ad0cd47a64f34422e174f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '742ead54855101dce164cd6823673766') in 0.007033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resources/PreloadedChats/11557/11557_chat_0.txt
+  artifactKey: Guid(90d961910266dda46996bb2b0f441cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/11557/11557_chat_0.txt using Guid(90d961910266dda46996bb2b0f441cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68e9a6b4ed58433eccba54ab13ca961b') in 0.006932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Resources/PreloadedChats/22221/22221_chat_4.txt
+  artifactKey: Guid(2b18692257d02eb4f8b513abf677347c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/22221/22221_chat_4.txt using Guid(2b18692257d02eb4f8b513abf677347c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e2923ab7d55170dc94b07ca4238527c') in 0.006983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/PreloadedChats/34830/34830_chat_2.txt
+  artifactKey: Guid(8397e41d882e44a459ecabf3e17b4982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34830/34830_chat_2.txt using Guid(8397e41d882e44a459ecabf3e17b4982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '535166b59c5a2cd02e0c808992780d40') in 0.004873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/PreloadedChats/34830/34830_chat_5.txt
+  artifactKey: Guid(9c71dd29ac3f4044aacc1b907d80f05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34830/34830_chat_5.txt using Guid(9c71dd29ac3f4044aacc1b907d80f05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72db6f03de7d1a8e375677ecbfc93c38') in 0.005901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Chat/ChatBox.cs
+  artifactKey: Guid(a0a855946ec961e4295a5190a2c74e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Chat/ChatBox.cs using Guid(a0a855946ec961e4295a5190a2c74e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9c9f44bb3f3c81d1cd4b72824d7da3d') in 0.004744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Resources/PreloadedChats/17474/17474_chat_5.txt
+  artifactKey: Guid(48a7f4964a4001744845842837093722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/17474/17474_chat_5.txt using Guid(48a7f4964a4001744845842837093722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20a674bf61ba2b6eded69e4c5cb4dfec') in 0.007083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/PreloadedChats/34738/34738_chat_1.txt
+  artifactKey: Guid(444300ff5857d684cbad5109cad6f571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34738/34738_chat_1.txt using Guid(444300ff5857d684cbad5109cad6f571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fc00dff1c37440d488e055d65fc33f4') in 0.006573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Textures/ui_button.png
+  artifactKey: Guid(3a2a7092a35250e489cbc8f46e6b09bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/ui_button.png using Guid(3a2a7092a35250e489cbc8f46e6b09bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e1ae0f44c6d175df51af5554b69e561') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/PreloadedChats/12122/12122_chat_2.txt
+  artifactKey: Guid(b8ff12d11e710c44ebc2dd9e3d6cee2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12122/12122_chat_2.txt using Guid(b8ff12d11e710c44ebc2dd9e3d6cee2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '316adbbe165f9243d88cc60477a6b2a7') in 0.007459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/39434/39434_chat_3.txt
+  artifactKey: Guid(c2c9bc12567ceec4e8cbf3ab2b9c3012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/39434/39434_chat_3.txt using Guid(c2c9bc12567ceec4e8cbf3ab2b9c3012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7505be3afde3bcf09f8dd64fee244e6') in 0.006897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scripts/UIPages/ConversationUI.cs
+  artifactKey: Guid(afe397d2f8f67a2478b1d14a0bf1e62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UIPages/ConversationUI.cs using Guid(afe397d2f8f67a2478b1d14a0bf1e62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd12cc4e90499765a27b4d49b2d562f5d') in 0.002715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/11557/11557_chat_5.txt
+  artifactKey: Guid(a07d327fd6249314190dc75455445d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/11557/11557_chat_5.txt using Guid(a07d327fd6249314190dc75455445d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '832eddaf31b55222ac7810a3415ce4bc') in 0.006143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Textures/chat_sent.png
+  artifactKey: Guid(fb5d43699bba4f9488f1c1fafe048c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/chat_sent.png using Guid(fb5d43699bba4f9488f1c1fafe048c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c6823f149a918406ef72a36aa1f2545') in 0.013305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/ChatSent.prefab
+  artifactKey: Guid(9bc05b6f72a8b40479a3bdf5bf2aecf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/ChatSent.prefab using Guid(9bc05b6f72a8b40479a3bdf5bf2aecf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1837d26b1c65e9854a4275a51028debc') in 0.005480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/AppController.cs
+  artifactKey: Guid(ab866a27f9bd2854faaf61251d39e15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/AppController.cs using Guid(ab866a27f9bd2854faaf61251d39e15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91e281783cfda946bfa9a5b83c4783c3') in 0.002089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(ca6bd63822012ba4b98553285f39a71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UIManager.cs using Guid(ca6bd63822012ba4b98553285f39a71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5cbd7fc55d426216159086faa5c335c') in 0.001749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Resources/PreloadedChats/13321/13321_chat_3.txt
+  artifactKey: Guid(6593f7722148cd449a7c5bd69523c1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/13321/13321_chat_3.txt using Guid(6593f7722148cd449a7c5bd69523c1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f46a6f203483f2aeed9fdfa644a3731f') in 0.006994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/PreloadedChats/34830/34830_chat_1.txt
+  artifactKey: Guid(ddf534fa9194bfe458c641ed4429cbc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34830/34830_chat_1.txt using Guid(ddf534fa9194bfe458c641ed4429cbc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4efc4f50410731b1519f4fa98209538e') in 0.004926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/17474/17474_chat_3.txt
+  artifactKey: Guid(101d164a03bf4e7448d7e37a8bceb606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/17474/17474_chat_3.txt using Guid(101d164a03bf4e7448d7e37a8bceb606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e3cf5c3c44c1db0b5136b6b557bd0e5') in 0.004348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/PreloadedChats/21212/21212_chat_4.txt
+  artifactKey: Guid(e78e165ce2dc6e64db7f12f3f15a07b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/21212/21212_chat_4.txt using Guid(e78e165ce2dc6e64db7f12f3f15a07b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b08d5220f6ac2462d41f4d6d66d9440') in 0.003796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/PreloadedChats/13321/13321_chat_2.txt
+  artifactKey: Guid(622191e80e13f814b87ec2f3e5043da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/13321/13321_chat_2.txt using Guid(622191e80e13f814b87ec2f3e5043da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a27bee52718af8b1bca033876bfcd99') in 0.003908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Resources/PreloadedChats/12358/12358_chat_2.txt
+  artifactKey: Guid(1be491ab9d2e4744d9a883d3a0ae8ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12358/12358_chat_2.txt using Guid(1be491ab9d2e4744d9a883d3a0ae8ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f6e90e264c925b5403c7ebe37bfc7a6') in 0.004691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/PreloadedChats/11557/11557_chat_2.txt
+  artifactKey: Guid(6cc522f8001a2d94ca829b3a8e50c6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/11557/11557_chat_2.txt using Guid(6cc522f8001a2d94ca829b3a8e50c6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49d4f0ca22ad8367a1c344fa89c4ca14') in 0.003653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/PreloadedChats/12122/12122_chat_1.txt
+  artifactKey: Guid(d64d71a51ed726e4499d334f92a4b79c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12122/12122_chat_1.txt using Guid(d64d71a51ed726e4499d334f92a4b79c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f8108b18f770e61ae5b4f05222d586f') in 0.003598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/34738/34738_chat_4.txt
+  artifactKey: Guid(cf7cd3d020e498342b221431626256a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34738/34738_chat_4.txt using Guid(cf7cd3d020e498342b221431626256a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcc69ef5b07b0c44539f63dca5f10eb2') in 0.004249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scripts/Conversations/ConversationListItem.cs
+  artifactKey: Guid(bb0087dfd9ff2254c845463849d5636c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Conversations/ConversationListItem.cs using Guid(bb0087dfd9ff2254c845463849d5636c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3c35eea7109374cb62846619db8af52') in 0.002822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/PreloadedChats/26384/26384_chat_2.txt
+  artifactKey: Guid(dea88714fc1340145a4fa505e13a1cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/26384/26384_chat_2.txt using Guid(dea88714fc1340145a4fa505e13a1cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfced29fd41fedcc88d42b2fc07382a0') in 0.004109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll
+  artifactKey: Guid(878a269ee50954f5843ce9e2d98a44a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll using Guid(878a269ee50954f5843ce9e2d98a44a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63a01d2dfc4cc35441126f09ba8b9dad') in 0.003494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/PreloadedChats/12358/12358_chat_5.txt
+  artifactKey: Guid(475db40543b9e5d42a0eb1f8199d3e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12358/12358_chat_5.txt using Guid(475db40543b9e5d42a0eb1f8199d3e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41906e24453facdb9dc6c77d4707b7bf') in 0.004607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/22221/22221_chat_3.txt
+  artifactKey: Guid(084ef0e9b6e15ca4a91ef1f013fd60f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/22221/22221_chat_3.txt using Guid(084ef0e9b6e15ca4a91ef1f013fd60f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd69cd283517b6e3db35f97d1cd7d7d4e') in 0.004434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/PreloadedChats/22221/22221_chat_5.txt
+  artifactKey: Guid(823c127188c29d34ca7f8cb15e92bc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/22221/22221_chat_5.txt using Guid(823c127188c29d34ca7f8cb15e92bc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1645f3e3ba2595b5ff9753d63fd82ad9') in 0.004125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/PreloadedChats/12122/12122_chat_5.txt
+  artifactKey: Guid(8662b4f57f50b1d429c234fefd39bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/12122/12122_chat_5.txt using Guid(8662b4f57f50b1d429c234fefd39bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '094d29b9b34fdfe83dab37cd5df5e779') in 0.004020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/PreloadedChats/21212/21212_chat_5.txt
+  artifactKey: Guid(c7f1eed523b26a34f9c6e1183d20a975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/21212/21212_chat_5.txt using Guid(c7f1eed523b26a34f9c6e1183d20a975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f246ad904fb0d2b4151bda7e3fd783f5') in 0.004311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/PreloadedChats/34830/34830_chat_3.txt
+  artifactKey: Guid(9d4c9736c152ff940a3e76e4ef9c9a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/34830/34830_chat_3.txt using Guid(9d4c9736c152ff940a3e76e4ef9c9a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f1ad9cda87bb671bd6871569d4d4506') in 0.005597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/userid_conversations.txt
+  artifactKey: Guid(1cfd1174c80303a4bb89964ddd3a09e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/userid_conversations.txt using Guid(1cfd1174c80303a4bb89964ddd3a09e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe1a9644d13854a13679e13ff3589dbc') in 0.005432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/PreloadedChats/17474/17474_chat_1.txt
+  artifactKey: Guid(2e30241290e9f8346ba4ae9d1a2fe89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/17474/17474_chat_1.txt using Guid(2e30241290e9f8346ba4ae9d1a2fe89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f6fc6c43f63e5850795cd021b0866c4') in 0.005582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/UIPages/ProfileUI.cs
+  artifactKey: Guid(889d1e5bab58f17489a114e1fca9c7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UIPages/ProfileUI.cs using Guid(889d1e5bab58f17489a114e1fca9c7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9ebea482df487861fee464aa1144a6e') in 0.002160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/PreloadedChats/26384/26384_chat_4.txt
+  artifactKey: Guid(6bc43cf919e1bfb4c9d1694336096332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/26384/26384_chat_4.txt using Guid(6bc43cf919e1bfb4c9d1694336096332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de6821dabb10634de71fc24e884baf3c') in 0.005319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/PreloadedChats/26384/26384_chat_5.txt
+  artifactKey: Guid(227498f3983818e48a5b90ad5f977ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/26384/26384_chat_5.txt using Guid(227498f3983818e48a5b90ad5f977ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d9c17107596f642f02c22ac89162785') in 0.005701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.109150 seconds.
+  path: Assets/Resources/PreloadedChats/45334/45334_chat_1.txt
+  artifactKey: Guid(bdd7a971359b905448ed0997cdb9afcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/45334/45334_chat_1.txt using Guid(bdd7a971359b905448ed0997cdb9afcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9693a3126984b88c34882c636aeb4d32') in 0.007861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/PreloadedChats/76539/76539_chat_3.txt
+  artifactKey: Guid(2964adec99381d146bf5c69e4d466c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/76539/76539_chat_3.txt using Guid(2964adec99381d146bf5c69e4d466c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03b331651762a2ee105e25f7eb9271a8') in 0.005128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Resources/PreloadedChats/75739/75739_chat_0.txt
+  artifactKey: Guid(aa390441bfec9b948b880083af0fba3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75739/75739_chat_0.txt using Guid(aa390441bfec9b948b880083af0fba3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bee151bf98bf8715c832bc5904244662') in 0.005389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/93994/93994_chat_2.txt
+  artifactKey: Guid(80162f0c9e449fa44861135a79cf73b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93994/93994_chat_2.txt using Guid(80162f0c9e449fa44861135a79cf73b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a47ff3ea4780d1a6b1ff54a38ac71cbb') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/PreloadedChats/93893/93893_chat_0.txt
+  artifactKey: Guid(6daa583b3438d31479a25a3bb8ce883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93893/93893_chat_0.txt using Guid(6daa583b3438d31479a25a3bb8ce883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '108ab2060ff0783529d47f0660513e94') in 0.005302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/PreloadedChats/76539/76539_chat_1.txt
+  artifactKey: Guid(c06d28b68fa94c146b07b02501893165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/76539/76539_chat_1.txt using Guid(c06d28b68fa94c146b07b02501893165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c6b9defa4646f33de87297881cd8829') in 0.004520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/PreloadedChats/93994/93994_chat_4.txt
+  artifactKey: Guid(3ed17f546ff78394ea9112f2f32aed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93994/93994_chat_4.txt using Guid(3ed17f546ff78394ea9112f2f32aed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cdb7522d8cc1e6f9a664973a6b9cc27') in 0.004505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Resources/PreloadedChats/90569/90569_chat_4.txt
+  artifactKey: Guid(706fd2ca1e9cb3347a6660bd1ddab8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/90569/90569_chat_4.txt using Guid(706fd2ca1e9cb3347a6660bd1ddab8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db92ba932e8a4f8321a0a40b5be62e3b') in 0.004595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Resources/PreloadedChats/93994/93994_chat_3.txt
+  artifactKey: Guid(d59000d76b324d348b4a177b76d7482c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93994/93994_chat_3.txt using Guid(d59000d76b324d348b4a177b76d7482c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '903d6a196d6dfee12007eadc17e1e225') in 0.005444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/PreloadedChats/75739/75739_chat_3.txt
+  artifactKey: Guid(4c81627564827c94c92002d0a0fce448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75739/75739_chat_3.txt using Guid(4c81627564827c94c92002d0a0fce448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bb74bba8e97597977538839d96e8be1') in 0.004212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/PreloadedChats/93893/93893_chat_5.txt
+  artifactKey: Guid(a14203fa4cf0da8499791d20beff317c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93893/93893_chat_5.txt using Guid(a14203fa4cf0da8499791d20beff317c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba70d8db690ab67114c47c1c17411a45') in 0.005598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/PreloadedChats/76539/76539_chat_2.txt
+  artifactKey: Guid(b39c3b4b6617cfe42a9c7fee19e8c8eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/76539/76539_chat_2.txt using Guid(b39c3b4b6617cfe42a9c7fee19e8c8eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eea97d7c8600315c846baafde4c506fc') in 0.005238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/PreloadedChats/94784/94784_chat_3.txt
+  artifactKey: Guid(5b1c65cb3555fe9468eacaf71bad67d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/94784/94784_chat_3.txt using Guid(5b1c65cb3555fe9468eacaf71bad67d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d1e52b98860040e849ba9ac343c6e59') in 0.005444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/PreloadedChats/94784/94784_chat_4.txt
+  artifactKey: Guid(4cc5721ed96b2444db9ba991d46ec603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/94784/94784_chat_4.txt using Guid(4cc5721ed96b2444db9ba991d46ec603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ded7e15fb8b59d99ed4a87222f637d7') in 0.005751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/PreloadedChats/94784/94784_chat_2.txt
+  artifactKey: Guid(022c6d13653d8d44db3142654e1d3c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/94784/94784_chat_2.txt using Guid(022c6d13653d8d44db3142654e1d3c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36f8e716980ecd2544f7ccac5e8cb758') in 0.005129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/PreloadedChats/95385/95385_chat_2.txt
+  artifactKey: Guid(0c0672a4e34d26c4380160f51cdbb7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/95385/95385_chat_2.txt using Guid(0c0672a4e34d26c4380160f51cdbb7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f08930d4e8b38bc45ac29705b5d383ca') in 0.004844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/PreloadedChats/93731/93731_chat_3.txt
+  artifactKey: Guid(d5c17a68d67d5d34fa4fb9fd849e4918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93731/93731_chat_3.txt using Guid(d5c17a68d67d5d34fa4fb9fd849e4918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82a7d139a136128ce996f051c67caf0e') in 0.004482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/PreloadedChats/47499/47499_chat_1.txt
+  artifactKey: Guid(23a4d21aa2cad59448ef012b83941361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/47499/47499_chat_1.txt using Guid(23a4d21aa2cad59448ef012b83941361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6781fec9079691fbd74639d93d6a75f2') in 0.004280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/75739/75739_chat_2.txt
+  artifactKey: Guid(8273957cbfa706542924adc852d51de9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75739/75739_chat_2.txt using Guid(8273957cbfa706542924adc852d51de9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e98300865c025dce0e041636a87ebf52') in 0.004639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/PreloadedChats/47585/47585_chat_2.txt
+  artifactKey: Guid(2f9b5f869fdf6cc428445aa56b40f545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/47585/47585_chat_2.txt using Guid(2f9b5f869fdf6cc428445aa56b40f545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b78194125edd99e580bdbce56357b5d') in 0.004760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/93893/93893_chat_4.txt
+  artifactKey: Guid(ceb92aae4b08e5d4398c372265774161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93893/93893_chat_4.txt using Guid(ceb92aae4b08e5d4398c372265774161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47ffb7bb9c165ee63a777875753cfa5b') in 0.004608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/PreloadedChats/93893/93893_chat_3.txt
+  artifactKey: Guid(400b8becfd231544eb366627e78505a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93893/93893_chat_3.txt using Guid(400b8becfd231544eb366627e78505a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15a088c66fe6e72016f959e815edd301') in 0.004630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/PreloadedChats/75809/75809_chat_5.txt
+  artifactKey: Guid(fea449d14784d344987d4a43f7c8f72c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75809/75809_chat_5.txt using Guid(fea449d14784d344987d4a43f7c8f72c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dafd61ad8fc6b9d9a564035deece61e') in 0.005245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/93893/93893_chat_1.txt
+  artifactKey: Guid(d8877e36b086d8644ae45f9ee67f796e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93893/93893_chat_1.txt using Guid(d8877e36b086d8644ae45f9ee67f796e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4879f8a0545a176c76c9efa06098733b') in 0.003918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Resources/PreloadedChats/93731/93731_chat_0.txt
+  artifactKey: Guid(af147d9901d18c249808175bcc73aed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93731/93731_chat_0.txt using Guid(af147d9901d18c249808175bcc73aed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4efe2a6be74733d778806ed4099db8e') in 0.006524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/77699/77699_chat_3.txt
+  artifactKey: Guid(d3df6e9094b4b9e47b180f84e74f8abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/77699/77699_chat_3.txt using Guid(d3df6e9094b4b9e47b180f84e74f8abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b6863a7e16eb969d4d4a393b4e052f8') in 0.005084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/PreloadedChats/56777/56777_chat_1.txt
+  artifactKey: Guid(74df80fa6dd747c4b9d7fd0f90d8c17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/56777/56777_chat_1.txt using Guid(74df80fa6dd747c4b9d7fd0f90d8c17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a49a67cd94c8b93ed46e01da28474d1e') in 0.005008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Resources/PreloadedChats/93731/93731_chat_5.txt
+  artifactKey: Guid(43ec08d8831c6e24089f7752a33f05f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93731/93731_chat_5.txt using Guid(43ec08d8831c6e24089f7752a33f05f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60c423bd7b9466bf33f099a700c7376d') in 0.004791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/75809/75809_chat_0.txt
+  artifactKey: Guid(eac51a694a552354f9d670f397107b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75809/75809_chat_0.txt using Guid(eac51a694a552354f9d670f397107b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c10526c075c800d049c100b60e7e68') in 0.004700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/55558/55558_chat_1.txt
+  artifactKey: Guid(898358f4d79534a46884c38f63be62d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/55558/55558_chat_1.txt using Guid(898358f4d79534a46884c38f63be62d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97a59ce999d0d08b79d65e5bf90effda') in 0.005700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/PreloadedChats/56777/56777_chat_5.txt
+  artifactKey: Guid(0375cfc3838251e4ea6353a715ef1bad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/56777/56777_chat_5.txt using Guid(0375cfc3838251e4ea6353a715ef1bad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30f4b3faab7c29e208d732dd45f15a1d') in 0.005453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/PreloadedChats/85739/85739_chat_3.txt
+  artifactKey: Guid(05c9efd8ac5696643b1a4574df4dabf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/85739/85739_chat_3.txt using Guid(05c9efd8ac5696643b1a4574df4dabf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29324ff9be372b018f9bf6195a3fb3e9') in 0.004145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/PreloadedChats/77699/77699_chat_4.txt
+  artifactKey: Guid(d1dbd452c93e5a54082d80ec803a666b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/77699/77699_chat_4.txt using Guid(d1dbd452c93e5a54082d80ec803a666b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1b19b594f9aa29f986ff8a0aa05d3fc') in 0.004731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/PreloadedChats/93731/93731_chat_2.txt
+  artifactKey: Guid(32c43d36902a40746bdafe3739c7a848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93731/93731_chat_2.txt using Guid(32c43d36902a40746bdafe3739c7a848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c456d4eded10e7f1f24406c03451d2c') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Resources/PreloadedChats/94784/94784_chat_0.txt
+  artifactKey: Guid(5e75fc67af2fe3e4eb47da79700d5fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/94784/94784_chat_0.txt using Guid(5e75fc67af2fe3e4eb47da79700d5fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a207692a6de9e30e6f2be7309934df4') in 0.004932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/47585/47585_chat_1.txt
+  artifactKey: Guid(cfb3312f5c7848447bd9306cecb6bb2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/47585/47585_chat_1.txt using Guid(cfb3312f5c7848447bd9306cecb6bb2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa76e3f7d2fd7e1f54a0d60f9ebc4eec') in 0.005885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/PreloadedChats/85739/85739_chat_5.txt
+  artifactKey: Guid(2469ba8b42dcf2c4f85c5936bd355f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/85739/85739_chat_5.txt using Guid(2469ba8b42dcf2c4f85c5936bd355f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d5fc7a8b8a05e5f57af889b38db658b') in 0.004389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/PreloadedChats/75739/75739_chat_5.txt
+  artifactKey: Guid(c25fec6c2bf339e4784c6fe426caff17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/75739/75739_chat_5.txt using Guid(c25fec6c2bf339e4784c6fe426caff17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '136592c5992a8d5d3a138b1629bc8844') in 0.005039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/PreloadedChats/93994/93994_chat_1.txt
+  artifactKey: Guid(5e474639cb2aaab48b4c217bf9a39e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93994/93994_chat_1.txt using Guid(5e474639cb2aaab48b4c217bf9a39e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e197ac7652b3179b153d1af40d1871a') in 0.004679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Resources/PreloadedChats/93731/93731_chat_1.txt
+  artifactKey: Guid(38a175aa97a403c45bec3370a5eff144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/93731/93731_chat_1.txt using Guid(38a175aa97a403c45bec3370a5eff144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca9417973d2f271c053d36279f400924') in 0.005010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/PreloadedChats/45334/45334_chat_2.txt
+  artifactKey: Guid(54592169b5b6a344ab0efa2a6cea7b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/45334/45334_chat_2.txt using Guid(54592169b5b6a344ab0efa2a6cea7b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e41d9e445068bb2cff01ecfb9c570d8') in 0.005399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resources/PreloadedChats/47499/47499_chat_0.txt
+  artifactKey: Guid(c1c7148552d5d8140a6668afd2398a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/47499/47499_chat_0.txt using Guid(c1c7148552d5d8140a6668afd2398a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81efbea245c0465039d0812da4cbdb39') in 0.003945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/PreloadedChats/90569/90569_chat_3.txt
+  artifactKey: Guid(728154b8d777263449e72bbc33a58be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/90569/90569_chat_3.txt using Guid(728154b8d777263449e72bbc33a58be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '544e94619ea33be2d59a835745fddb40') in 0.005090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/PreloadedChats/90569/90569_chat_0.txt
+  artifactKey: Guid(3a561a9ea4acf4c40aca7b2599a141d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/90569/90569_chat_0.txt using Guid(3a561a9ea4acf4c40aca7b2599a141d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd8e2fafb7722c657988fe7861f95f5a') in 0.004165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/PreloadedChats/45678/45678_chat_2.txt
+  artifactKey: Guid(ad0f71f990453154fa2db807c207b4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/45678/45678_chat_2.txt using Guid(ad0f71f990453154fa2db807c207b4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9d5b5962d1f45c943f277584dc740d6') in 0.004692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/PreloadedChats/45334/45334_chat_4.txt
+  artifactKey: Guid(7db3bb29c6de8dc4d93adad3c8df2b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/45334/45334_chat_4.txt using Guid(7db3bb29c6de8dc4d93adad3c8df2b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efa3f91c9bed5bafafa0a26cceef977a') in 0.004544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/90569/90569_chat_1.txt
+  artifactKey: Guid(5166a6b9049958a4a828bf2f244182a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/90569/90569_chat_1.txt using Guid(5166a6b9049958a4a828bf2f244182a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83fcb2fe9f40bf0ac22ee363eae26357') in 0.004098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/PreloadedChats/85739/85739_chat_1.txt
+  artifactKey: Guid(16966d9ae1674084ab21def790a623c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/85739/85739_chat_1.txt using Guid(16966d9ae1674084ab21def790a623c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86fe01e6202e85567d262400208baf4') in 0.004222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/PreloadedChats/47499/47499_chat_2.txt
+  artifactKey: Guid(9fe0c3b63c0d395419ff466340932e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/47499/47499_chat_2.txt using Guid(9fe0c3b63c0d395419ff466340932e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b2d40ab409d630efa1fb35cef97cec3') in 0.004313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/PreloadedChats/76539/76539_chat_5.txt
+  artifactKey: Guid(9dbe794fc39be194eb561d15a21c462a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/76539/76539_chat_5.txt using Guid(9dbe794fc39be194eb561d15a21c462a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '872bd27f9fabb665537b7b6ea20cece0') in 0.005147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.245662 seconds.
+  path: Assets/Resources/PreloadedChats/95385/95385_chat_5.txt
+  artifactKey: Guid(5e552802a892ca64980cfe8330375074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/95385/95385_chat_5.txt using Guid(5e552802a892ca64980cfe8330375074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f808fc64d82dcfd9d9227bd9deec83') in 0.008280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Resources/PreloadedChats/99943/99943_chat_3.txt
+  artifactKey: Guid(27a38a24160a3ae44a4e727099899513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99943/99943_chat_3.txt using Guid(27a38a24160a3ae44a4e727099899513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '492722f3d20277e086439bd9a56f6111') in 0.004635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/PreloadedChats/99943/99943_chat_4.txt
+  artifactKey: Guid(1cb1e86dd5d4a564cb422dae19fe7a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99943/99943_chat_4.txt using Guid(1cb1e86dd5d4a564cb422dae19fe7a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd73373692c75137cd55eecf8ebb7a38') in 0.005125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/99943/99943_chat_1.txt
+  artifactKey: Guid(97ead390289b0554faecdfaf3dff8e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99943/99943_chat_1.txt using Guid(97ead390289b0554faecdfaf3dff8e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1820b67994db056ec76761afa9bab08') in 0.004599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/PreloadedChats/99847/99847_chat_5.txt
+  artifactKey: Guid(7ac9462e2d1eff249959b2c4bdf6b227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99847/99847_chat_5.txt using Guid(7ac9462e2d1eff249959b2c4bdf6b227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1d587387145c08804ca3adea2f99d0a') in 0.004930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/PreloadedChats/99847/99847_chat_0.txt
+  artifactKey: Guid(33368ec78c8c1ea4985c697efac7c886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99847/99847_chat_0.txt using Guid(33368ec78c8c1ea4985c697efac7c886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9db14947066b18489c33e4559efb84ff') in 0.004443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/PreloadedChats/99847/99847_chat_4.txt
+  artifactKey: Guid(80e7ab6b759753d4a9ee5515866c7dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PreloadedChats/99847/99847_chat_4.txt using Guid(80e7ab6b759753d4a9ee5515866c7dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46ca085babd81d053176c4b504ece79e') in 0.004457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

@@ -1,0 +1,254 @@
+{
+  "chats":[
+    {
+      "sender": "You",
+      "message": "Hey Hows it going?",
+      "timestamp":"10/29/2017 09:56:42 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Hey, going good",
+      "timestamp":"10/29/2017 09:56:43 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Awesome! Have you been keeping up with the Worlds Series?",
+      "timestamp":"10/29/2017 09:56:44 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Yea, its been crazy already 2 and 2.",
+      "timestamp":"10/29/2017 09:56:45 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "But I know you are hoping the dodgers lose.",
+      "timestamp":"10/29/2017 09:56:46 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Well ofcourse, Im a Giants fan.  Even though they didn't do good this season I still look for whats in their best interest.",
+      "timestamp":"10/29/2017 09:56:47 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Yea I hear you you.",
+      "timestamp":"10/29/2017 09:56:48 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "It would have been awesome to go to the World series when they won.",
+      "timestamp":"10/29/2017 09:56:49 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Totally, just would have cost a fortune",
+      "timestamp":"10/29/2017 09:56:50 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "One Day",
+      "timestamp":"10/29/2017 09:56:51 AM"
+    },
+	{
+      "sender": "You",
+      "message": "One Day Indeed",
+      "timestamp":"10/29/2017 09:56:52 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": ":D",
+      "timestamp":"10/29/2017 09:56:53 AM"
+    },
+	{
+      "sender": "You",
+      "message": ":D",
+      "timestamp":"10/29/2017 09:56:54 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": ":p",
+      "timestamp":"10/29/2017 09:56:55 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Hey what are you doing this weekend?",
+      "timestamp":"10/29/2017 09:56:56 AM"
+    },
+	{
+      "sender": "You",
+      "message": "I dont know why?",
+      "timestamp":"10/29/2017 09:56:57 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "I dont know was thinking we could maybe hang out or something",
+      "timestamp":"10/29/2017 09:56:58 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Weve just been talking to each other here and not in person",
+      "timestamp":"10/29/2017 09:56:59 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Would be nice to catch up more",
+      "timestamp":"10/29/2017 09:57:00 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Yea",
+      "timestamp":"10/29/2017 09:57:01 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Well let me see what I got going on",
+      "timestamp":"10/29/2017 09:57:02 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Hang on",
+      "timestamp":"10/29/2017 09:57:02 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "k",
+      "timestamp":"10/29/2017 09:57:03 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Look like my girlfriend wanted to do something this weekend.",
+      "timestamp":"10/29/2017 09:57:04 AM"
+    },
+	{
+      "sender": "You",
+      "message": "We could do something together or maybe plan something for next week",
+      "timestamp":"10/29/2017 09:57:05 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Im cool with either",
+      "timestamp":"10/29/2017 09:57:06 AM"
+    },
+	{
+      "sender": "You",
+      "message": "But your suppose to decide not make me decide :p",
+      "timestamp":"10/29/2017 09:57:07 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "I dont know im indecisive",
+      "timestamp":"10/29/2017 09:57:08 AM"
+    },
+	{
+      "sender": "You",
+      "message": "GAWWWHHH",
+      "timestamp":"10/29/2017 09:57:09 AM"
+    },
+	{
+      "sender": "You",
+      "message": "What am I going to do with you",
+      "timestamp":"10/29/2017 09:57:10 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "you could buy me stuff",
+      "timestamp":"10/29/2017 09:57:11 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "I like long walks on the beach",
+      "timestamp":"10/29/2017 09:57:12 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Im pretty easy",
+      "timestamp":"10/29/2017 09:57:13 AM"
+    },
+	{
+      "sender": "You",
+      "message": "HAHA",
+      "timestamp":"10/29/2017 09:57:14 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "No Im serious",
+      "timestamp":"10/29/2017 09:57:15 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "I do like the beach",
+      "timestamp":"10/29/2017 09:57:16 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Take me there",
+      "timestamp":"10/29/2017 09:57:17 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Well see",
+      "timestamp":"10/29/2017 09:57:18 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Please?",
+      "timestamp":"10/29/2017 09:57:19 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:20 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:21 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:22 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:23 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:24 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:25 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:26 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:27 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:28 AM"
+    },
+	{
+      "sender": "Henry",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:29 AM"
+    },
+	{
+      "sender": "You",
+      "message": "Ok",
+      "timestamp":"10/29/2017 09:57:30 AM"
+    }
+    ]
+}
